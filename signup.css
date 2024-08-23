@@ -1,0 +1,40 @@
+body{
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{             /*here is main container style*/
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 8px;
+}
+.form-group{        
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group select{
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-group input[type="check box"] {
+    margin-right: 5px;
+}
+.btn{
+    background-color: rgb(46, 253, 46);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
