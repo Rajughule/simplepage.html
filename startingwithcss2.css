@@ -1,0 +1,26 @@
+/*Block: content*/
+/*Element: Paragraph*/
+/*Modifier: Primary, Secondary, Highlighted, muted*/
+.content__paragraph{
+    font-size: 20px;
+    line-height: 1cm;
+    margin-bottom: 10px;
+}
+.content__paragraph--primary{
+    color: #2c3e2c;
+    font-weight: bold;
+}
+.content__paragraph--secondary{
+    color: #000fff;
+    font-style: italic;
+}
+.content__paragraph--highlighted{
+    color: #ffc0cb;
+    background-color: black;
+    padding: 5px;
+}
+.content__paragraph--muted{
+    color: #ff4444;
+    font-size: 15px;
+    
+}
