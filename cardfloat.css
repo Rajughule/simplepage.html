@@ -1,0 +1,12 @@
+.float{
+    height: 400px;
+    width: 1000px;
+    border: solid black;
+    padding: 1cm;
+    background-color: bisque;
+
+}
+.image{
+    align-items: center;
+    float: inline-end;
+}
