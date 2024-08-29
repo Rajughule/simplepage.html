@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="startingwithcss3.css">
+    <title>Form style</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registraion</h1>
+        <form>
+            <fieldset class="form-section form-section--transparent">
+                <legend>Personal Information</legend>
+                <label for="first-name">first-name:</label>
+                <input type="text" id="first-name" name="first-name" class="input-field" required>
+
+                <label for="last-name">last-name:</label>
+                <input type="text" id="last-name" name="last-name" class="input-field" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="input-field" required>
+
+
+            </fieldset>
+
+            <fieldset class="form-section">
+                <legend>Account details</legend>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" class="input-field">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="input-field">
+
+                <label for="confirm-password">confirm-password</label>
+                <input type="password" id="confirm-password" name="confirm-password" class="input-field" required>
+
+
+            </fieldset>
+
+            <input type="submit" value="Register" class="submit-button">
+
+        </form>
+    </div>
+    
+</body>
+</html>

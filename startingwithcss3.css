@@ -1,0 +1,72 @@
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc91;
+    --background-color: #f1f1f1;
+    --border-color: #dcdcdc;
+    --text-color: rgb(0,0,0);
+    --input-background-color:#ecf0f1;
+    --transparent-bg: rgba(52,152,219,0.2); /*Primary color with opacity*/
+}
+body{
+    font-family: arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+
+}
+.form-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    color: var(--primary-color);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-section{
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+.form-section--transparent{
+    background-color: var(--transparent-bg); /*applying opacity*/
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.input-field{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--input-background-color);
+    color: var(--text-color);
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-field:focus{
+    border-color: var(--primary-color);
+    outline: none;
+}
+.submit-button{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-button:hover{
+    background-color: var(--primary-color);
+}
