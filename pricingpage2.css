@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(231, 240, 230);
+    margin: 0;
+    padding: 20px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s;
+    margin: 1cm;
+    color: black;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(59, 59, 98);
+}
+
+.pricing-card h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.pricing-card h2 .price:hover{
+    color: white;
+}
+
+.pricing-card p {
+    font-size: small;
+    margin-top: 0;
+    padding-top: 0;
+    color: solid black;
+}
+.pricing-card p:hover{
+    color: white;
+}
+.pricing-card .price {
+    color: black;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.pricing-card ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.pricing-card ul li::after {
+    content: "\2713"; /* Unicode for checkmark */
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    font-size: 16px;
+    color: white;
+}
+
+.pricing-card:hover ul li::before {
+    background-color: white;
+}
+
+.pricing-card:hover ul li::after {
+    color: black;
+}
+button{
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 0.8cm;
+    margin-left: 0.9cm;
+    height: 1cm;
+    background-color: rgb(71, 71, 75);
+    color: white;
+}
+.pricing-card:hover button{
+    background-color: white;
+    color: black;
+}
